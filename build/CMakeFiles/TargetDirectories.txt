@@ -1,0 +1,3 @@
+C:/Users/imart/Desktop/Projects/CSVPrueba/build/CMakeFiles/CSVPrueba.dir
+C:/Users/imart/Desktop/Projects/CSVPrueba/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/imart/Desktop/Projects/CSVPrueba/build/CMakeFiles/ZERO_CHECK.dir

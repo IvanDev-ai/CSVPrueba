@@ -1,0 +1,10 @@
+^C:\USERS\IMART\DESKTOP\PROJECTS\CSVPRUEBA\BUILD\CMAKEFILES\A5C8781BB81E98977E8D322063EB0499\GENERATE.STAMP.RULE
+setlocal
+D:\cmake-3.31.2-windows-x86_64\cmake-3.31.2-windows-x86_64\bin\cmake.exe -SC:/Users/imart/Desktop/Projects/CSVPrueba -BC:/Users/imart/Desktop/Projects/CSVPrueba/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/imart/Desktop/Projects/CSVPrueba/build/CSVPrueba.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
